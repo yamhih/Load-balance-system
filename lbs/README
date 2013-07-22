@@ -1,0 +1,35 @@
+This directory contains fews files. 
+
+introduce:
+    The most importaint directories are src, include. This two dirctories
+contains the source code and the header files. It can't run if there lost
+any of them. So you must keep save them carefully.
+    src:
+    	The *.c files are the source code, every file name means its
+    functions. Like the server.c, it is mean this file is write for server.
+    include:
+    	This directory is contains many header files, which are most
+    importaint.
+    bin:
+    	This is binary directoy. After compile the source code, the
+    destinate files are here. They are binaary file. thye can execute.
+
+run:
+    First thing you should do is checking if the executed file exists.
+    So in order to make you can correctly run. You shuold do as:
+    make clean
+    make
+    make run
+
+clean:
+    After running the system, maybe you want to release your disk space.
+Just "make clean" to enlarge your free space
+
+
+Run environment:
+	OS:
+		Linux redhat 2.6.32-220.el6.x86_64 #1 SMP Wed Nov 9 08:03:13 EST 2011 x86_64 x86_64 x86_64 GNU/Linux
+	gcc:
+		gcc (GCC) 4.4.6 20110731 (Red Hat 4.4.6-3)
+		Copyright (C) 2010 Free Software Foundation, Inc.
+	
